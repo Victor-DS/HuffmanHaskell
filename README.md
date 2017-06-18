@@ -2,6 +2,17 @@
 
 An interpretation of Huffman's algorithm in Haskell.
 
+## ABOUT
+University project where I had to implement Huffman's algorithm in Haskell, based on a fixed table of letter frequency.
+
+TO use it, just import the Huffman.hs file to your IDE and call the **huffman** method passing a string.
+
+Example:
+```
+Huffman> huffman “victords”
+"001001010100001100101111011"
+```
+
 ## LICENSE
 
 ```
